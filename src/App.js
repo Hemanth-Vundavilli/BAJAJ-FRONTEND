@@ -32,7 +32,7 @@ const App = () => {
     
     try {
       // Send a POST request to the backend API with the JSON data
-      const result = await axios.post('http://localhost:5000/bfhl', {
+      const result = await axios.post('https://bajaj-backend-final.onrender.com/bfhl', {
         data: JSON.parse(jsonData).data,
       });
       setResponse(result.data);           // Store the backend response
