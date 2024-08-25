@@ -5,79 +5,83 @@ body, h1, h3, p, textarea, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  /* Set the background color for the entire page */
-  body {
-    background-color: #f0f0f0; /* Light grey background */
-    font-family: Arial, sans-serif;
-    color: #333; /* Dark grey text for better readability */
-  }
-  
-  /* Container */
-  div {
-    padding: 20px;
-    max-width: 800px;
+}
+
+/* Set the background color for the entire page */
+body {
+    background-color: #e8f0f2; /* Soft blue background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50; /* Darker text color for readability */
+}
+
+/* Container */
+div {
+    padding: 25px;
+    max-width: 900px;
     margin: auto;
-    background-color: #fff; /* White background for content */
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow effect */
-  }
-  
-  /* Heading styles */
-  h1 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Textarea styling */
-  textarea {
+    background-color: #ffffff; /* White background for content */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 28px;
+    color: #34495e;
+    margin-bottom: 25px;
+}
+
+/* Textarea styling */
+textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 14px;
-  }
-  
-  /* Button styling */
-  button {
-    padding: 10px 20px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #b0bec5;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 1.5;
+    resize: vertical;
+}
+
+/* Button styling */
+button {
+    padding: 12px 25px;
     border: none;
-    border-radius: 4px;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 14px;
+    border-radius: 6px;
+    background-color: #3498db; /* Blue background */
+    color: #ffffff;
+    font-size: 16px;
     cursor: pointer;
-    margin-right: 10px;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Error message styling */
-  p {
-    color: red;
-    margin-top: 10px;
-  }
-  
-  /* Filters and Results styling */
-  div > div {
-    margin-top: 20px;
-  }
-  
-  label {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Error message styling */
+p {
+    color: #e74c3c; /* Red for errors */
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* Filters and Results styling */
+div > div {
+    margin-top: 25px;
+}
+
+label {
     display: block;
-    margin-bottom: 10px;
-  }
-  
-  pre {
-    background-color: #f8f9fa;
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+pre {
+    background-color: #f1f8f9;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid #b0bec5;
     overflow-x: auto;
-  }
-  
+    font-family: 'Courier New', Courier, monospace;
+}
