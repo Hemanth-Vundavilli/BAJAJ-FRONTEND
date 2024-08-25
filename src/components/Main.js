@@ -22,7 +22,7 @@ const Main = () => {
       }
 
       // Make POST request to the backend API
-      const res = await axios.post('http://localhost:5000/bfhl', parsedInput);
+      const res = await axios.post('https://bajaj-backend-final.onrender.com/bfhl', parsedInput);
       setResponse(res.data);
       setFilteredData(null); // Reset filtered data
     } catch (err) {
